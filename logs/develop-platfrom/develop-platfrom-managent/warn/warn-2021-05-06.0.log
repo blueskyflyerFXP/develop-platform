@@ -1,0 +1,3 @@
+时间：2021-05-06 22:24:16.393 日志级别：WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder 行号:127 - 日志内容：For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+时间：2021-05-06 22:25:27.344 日志级别：WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder 行号:127 - 日志内容：For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+时间：2021-05-06 23:10:54.017 日志级别：WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder 行号:127 - 日志内容：For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath

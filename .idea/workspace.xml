@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88314736-0056-4764-8f2c-c500ed16ed10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/develop-platfrom/develop-platfrom-managent/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/develop-platfrom/develop-platfrom-managent/info/log-info-2021-05-06.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/develop-platfrom/develop-platfrom-managent/info/log-info-2021-05-15.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/develop-platfrom/develop-platfrom-managent/info/log-info-2021-05-16.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/develop-platfrom/develop-platfrom-managent/warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/develop-platfrom/develop-platfrom-managent/warn/warn-2021-05-06.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/develop-platfrom/develop-platfrom-managent/warn/warn-2021-05-15.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/develop-platfrom/develop-platfrom-managent/warn/warn-2021-05-16.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/oracle/crud/log.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/oracle/crud/table_info.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/oracle/table/log.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/oracle/table/table_info.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/DevelopPlatformApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/BaseLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/Dto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/MethodCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/Po.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/annotation/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/AutoGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/AutoScann.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/ClassUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/PackageScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/TableAnnInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/TableColumnAnnInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/TableIndexAnnInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/TableKeyAnnInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/TableStruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/auto/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/config/MyWebConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/config/ShiroConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/CodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/ColumnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/DbType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/DbTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/KeyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/StyleCheckType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/StyleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/constant/Week.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/database/TableColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/database/TableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/entity/AdminPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/handle/ExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/handle/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/handle/LogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/handle/MyHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/handle/StepHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/log/BaseLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/log/ErrorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/log/ExceptionLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/log/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/log/LogMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/log/MontorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/log/StepLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/log/WarnLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/result/ResultFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/service/AdminPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/service/AdminRolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/CastUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/ClassUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/ConfigUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/DtoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/JacksonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/ObjectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/PackageScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/log.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/wj.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="develop-platform" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="develop-platform" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="develop-platform" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Project\Java\develop-platform" />
+        <option value="D:\Project\Java\spring-security-auth\develop-platform\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rsvM2XTPZVKStdoN1y8XUpjCcW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../develop-platfrom-web" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Java\develop-platform\src\main\resources\sql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="wust.fxp.develop.platfrom" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Java\develop-platform\src\main\java\wust\fxp\develop\platfrom" />
+      <recent name="D:\Project\Java\develop-platform\src\main\resources" />
+      <recent name="D:\Project\Java\develop-platform\src\main\java\wust\fxp\develop\platfrom\utils" />
+      <recent name="D:\Project\Java\develop-platform\src\main\java\wust\fxp\develop\platfrom\dao" />
+      <recent name="D:\Project\Java\develop-platform\src\main\java\wust\fxp\develop\platfrom\controller" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8443/actuator" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v3+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wust.fxp.develop.platfrom.auto.Test" />
+      <module name="develop-platform.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wust.fxp.develop.platfrom.auto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="develop-platform [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DevelopPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="develop-platform.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="wust.fxp.develop.platfrom.DevelopPlatformApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Gradle.develop-platform [clean]" />
+      <item itemvalue="Spring Boot.DevelopPlatformApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.develop-platform [clean]" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88314736-0056-4764-8f2c-c500ed16ed10" name="Default Changelist" comment="" />
+      <created>1619777559390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619777559390</updated>
+      <workItem from="1619777564377" duration="5450000" />
+      <workItem from="1619783482378" duration="6370000" />
+      <workItem from="1619794661113" duration="3325000" />
+      <workItem from="1619800459966" duration="1642000" />
+      <workItem from="1619808922647" duration="16000" />
+      <workItem from="1619854184345" duration="22199000" />
+      <workItem from="1619938375219" duration="27473000" />
+      <workItem from="1619966450102" duration="907000" />
+      <workItem from="1619967926361" duration="9823000" />
+      <workItem from="1620014611479" duration="15366000" />
+      <workItem from="1620039398011" duration="16789000" />
+      <workItem from="1620104274677" duration="22714000" />
+      <workItem from="1620194613489" duration="3113000" />
+      <workItem from="1620206664353" duration="6905000" />
+      <workItem from="1620227177165" duration="2249000" />
+      <workItem from="1620281251699" duration="7752000" />
+      <workItem from="1620296956609" duration="12653000" />
+      <workItem from="1620871866977" duration="290000" />
+      <workItem from="1621071111542" duration="5620000" />
+      <workItem from="1621137038174" duration="14306000" />
+      <workItem from="1621841675359" duration="1880000" />
+      <workItem from="1621847153946" duration="162000" />
+      <workItem from="1621847386603" duration="111000" />
+      <workItem from="1622102471254" duration="658000" />
+      <workItem from="1622530339194" duration="1198000" />
+      <workItem from="1622706880237" duration="1756000" />
+      <workItem from="1622872395664" duration="2058000" />
+      <workItem from="1623397958979" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620105547756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1620105547756" />
+    <state x="575" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1619950609646">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="575" y="340" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1619950609646" />
+    <state x="84" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620311743866">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="84" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1620311743866" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620037156177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620037156177" />
+    <state x="320" y="9" key="CommitChangelistDialog2" timestamp="1620229239024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="320" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1620229239024" />
+    <state width="407" height="466" key="DebuggerActiveHint" timestamp="1619944829642">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="407" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1619944829642" />
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1620287034516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620287034516" />
+    <state x="586" y="292" width="388" height="275" key="Github.ShareDialog" timestamp="1619855057552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="292" width="388" height="275" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1619855057552" />
+    <state x="479" y="119" key="Github.UntrackedFilesDialog" timestamp="1619855119696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="119" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1619855119696" />
+    <state width="1492" height="541" key="GridCell.Tab.0.bottom" timestamp="1621843117815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="541" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621843117815" />
+    <state width="1492" height="541" key="GridCell.Tab.0.center" timestamp="1621843117815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="541" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621843117815" />
+    <state width="1492" height="541" key="GridCell.Tab.0.left" timestamp="1621843117815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="541" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621843117815" />
+    <state width="1492" height="541" key="GridCell.Tab.0.right" timestamp="1621843117815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="541" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621843117815" />
+    <state width="1492" height="541" key="GridCell.Tab.1.bottom" timestamp="1621842923532">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="541" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621842923532" />
+    <state width="1492" height="541" key="GridCell.Tab.1.center" timestamp="1621842923531">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="541" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621842923531" />
+    <state width="1492" height="541" key="GridCell.Tab.1.left" timestamp="1621842923531">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="541" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621842923531" />
+    <state width="1492" height="541" key="GridCell.Tab.1.right" timestamp="1621842923532">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="541" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621842923532" />
+    <state width="1492" height="419" key="GridCell.Tab.2.bottom" timestamp="1620318446092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="419" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620318446092" />
+    <state width="1492" height="419" key="GridCell.Tab.2.center" timestamp="1620318446092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="419" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1620318446092" />
+    <state width="1492" height="419" key="GridCell.Tab.2.left" timestamp="1620318446091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="419" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1620318446091" />
+    <state width="1492" height="419" key="GridCell.Tab.2.right" timestamp="1620318446092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="419" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1620318446092" />
+    <state x="349" y="150" key="IDE.errors.dialog" timestamp="1619783073514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="150" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1619783073514" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1623397996695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1623397996695" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1623398022432">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623398022432" />
+    <state x="565" y="193" key="chooseDestDirectoryDialog" timestamp="1620122070313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1620122070313" />
+    <state x="254" y="240" key="new project wizard" timestamp="1620119131784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="254" y="240" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1620119131784" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1620297296513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1620297296513" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1619945920279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1619945920279" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/wust/fxp/develop/platfrom/scann/CustomAnnotationDemo.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
